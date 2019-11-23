@@ -1,0 +1,4187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="48" passed="48">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EMotelSystemSuiteChrome" duration-ms="890706" started-at="2018-11-19T15:00:26Z" finished-at="2018-11-19T15:15:17Z">
+    <groups>
+    </groups>
+    <test name="TipoHotelWebDriverTestChrome" duration-ms="63977" started-at="2018-11-19T15:00:26Z" finished-at="2018-11-19T15:01:30Z">
+      <class name="com.emotel.test.system.testCase.MantenimientoTipoHotel">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int, int, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoTipoHotel@6500df86]" name="inicioClase" is-config="true" duration-ms="3149" started-at="2018-11-19T15:00:26Z" finished-at="2018-11-19T15:00:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="registrarTipoHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoTipoHotel@6500df86]" name="registrarTipoHotel" duration-ms="17996" started-at="2018-11-19T15:00:30Z" data-provider="datosEntrada" finished-at="2018-11-19T15:00:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro tipo hotel FB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hotel 5 estrellas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[El mejor hotel del pais registrate ahora]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Tipo Hotel guardado]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarTipoHotel -->
+        <test-method status="PASS" signature="registrarTipoHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoTipoHotel@6500df86]" name="registrarTipoHotel" duration-ms="13741" started-at="2018-11-19T15:00:48Z" data-provider="datosEntrada" finished-at="2018-11-19T15:01:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro tipo hotel FA01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hotel 4 estrellas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[144]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarTipoHotel -->
+        <test-method status="PASS" signature="registrarTipoHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoTipoHotel@6500df86]" name="registrarTipoHotel" duration-ms="13966" started-at="2018-11-19T15:01:01Z" data-provider="datosEntrada" finished-at="2018-11-19T15:01:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro tipo hotel FA02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[El segundo mejor hotel del pais registrate ahora]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[148]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarTipoHotel -->
+        <test-method status="PASS" signature="registrarTipoHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoTipoHotel@6500df86]" name="registrarTipoHotel" duration-ms="13633" started-at="2018-11-19T15:01:15Z" data-provider="datosEntrada" finished-at="2018-11-19T15:01:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro tipo hotel FA03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[295]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarTipoHotel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.emotel.test.system.testCase.MantenimientoTipoHotel@6500df86]" name="tearDown" is-config="true" duration-ms="756" started-at="2018-11-19T15:01:29Z" finished-at="2018-11-19T15:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.emotel.test.system.testCase.MantenimientoTipoHotel -->
+    </test> <!-- TipoHotelWebDriverTestChrome -->
+    <test name="HotelWebDriverTestChrome" duration-ms="128328" started-at="2018-11-19T15:01:30Z" finished-at="2018-11-19T15:03:38Z">
+      <class name="com.emotel.test.system.testCase.MantenimientoHotel">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int, int, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoHotel@49993335]" name="inicioClase" is-config="true" duration-ms="2327" started-at="2018-11-19T15:01:30Z" finished-at="2018-11-19T15:01:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="registrarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoHotel@49993335]" name="registrarHotel" duration-ms="17007" started-at="2018-11-19T15:01:32Z" data-provider="datosEntrada" finished-at="2018-11-19T15:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro hotel FB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hotel Sahara]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Av. Prolongacion 158]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Hotel guardado]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[76.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarHotel -->
+        <test-method status="PASS" signature="registrarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoHotel@49993335]" name="registrarHotel" duration-ms="15508" started-at="2018-11-19T15:01:49Z" data-provider="datosEntrada" finished-at="2018-11-19T15:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro hotel FA01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hotel Oasis]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[205.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[38]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarHotel -->
+        <test-method status="PASS" signature="registrarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoHotel@49993335]" name="registrarHotel" duration-ms="15506" started-at="2018-11-19T15:02:05Z" data-provider="datosEntrada" finished-at="2018-11-19T15:02:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro hotel FA02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hotel Resplandor]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Jr. Maria Parado de Bellido 154]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[210.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarHotel -->
+        <test-method status="PASS" signature="registrarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoHotel@49993335]" name="registrarHotel" duration-ms="15531" started-at="2018-11-19T15:02:20Z" data-provider="datosEntrada" finished-at="2018-11-19T15:02:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro hotel FA03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[45.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Jr. Cuzco 400]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[215.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarHotel -->
+        <test-method status="PASS" signature="registrarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoHotel@49993335]" name="registrarHotel" duration-ms="15474" started-at="2018-11-19T15:02:36Z" data-provider="datosEntrada" finished-at="2018-11-19T15:02:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro hotel FA04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hotel Oasis]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[269.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[57]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarHotel -->
+        <test-method status="PASS" signature="registrarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoHotel@49993335]" name="registrarHotel" duration-ms="15365" started-at="2018-11-19T15:02:51Z" data-provider="datosEntrada" finished-at="2018-11-19T15:03:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro hotel FA05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[47.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[271.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[58]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarHotel -->
+        <test-method status="PASS" signature="registrarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoHotel@49993335]" name="registrarHotel" duration-ms="15364" started-at="2018-11-19T15:03:07Z" data-provider="datosEntrada" finished-at="2018-11-19T15:03:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro hotel FA06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Jr. Cuzco 403]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[273.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarHotel -->
+        <test-method status="PASS" signature="registrarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoHotel@49993335]" name="registrarHotel" duration-ms="15453" started-at="2018-11-19T15:03:22Z" data-provider="datosEntrada" finished-at="2018-11-19T15:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registro hotel FA07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[275.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarHotel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.emotel.test.system.testCase.MantenimientoHotel@49993335]" name="tearDown" is-config="true" duration-ms="739" started-at="2018-11-19T15:03:37Z" finished-at="2018-11-19T15:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.emotel.test.system.testCase.MantenimientoHotel -->
+    </test> <!-- HotelWebDriverTestChrome -->
+    <test name="RestauranteWebDriverTestChrome" duration-ms="252676" started-at="2018-11-19T15:03:38Z" finished-at="2018-11-19T15:07:51Z">
+      <class name="com.emotel.test.system.testCase.MantenimientoRestaurante">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int, int, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="inicioClase" is-config="true" duration-ms="3063" started-at="2018-11-19T15:03:38Z" finished-at="2018-11-19T15:03:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="19502" started-at="2018-11-19T15:03:41Z" data-provider="datosEntrada" finished-at="2018-11-19T15:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Restaurante Samanta]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[El mejor restaurante de comidas tipicas]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Av. Prolongacion 158]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Restaurante guardado]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[78.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17854" started-at="2018-11-19T15:04:01Z" data-provider="datosEntrada" finished-at="2018-11-19T15:04:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[El mejor restaurante de comidas tipicas]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Av. Los frutales 300]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[180.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17890" started-at="2018-11-19T15:04:19Z" data-provider="datosEntrada" finished-at="2018-11-19T15:04:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Restaurante Sol]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[El mejor restaurante de comidas tipicas]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Jr. Maria Parado de Bellido 154]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[185.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17639" started-at="2018-11-19T15:04:37Z" data-provider="datosEntrada" finished-at="2018-11-19T15:04:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Restaurante Punto]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[16.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Jr. Cuzco 400]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[190.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17788" started-at="2018-11-19T15:04:54Z" data-provider="datosEntrada" finished-at="2018-11-19T15:05:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Resturante Solsticio]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[El mejor restaurante de comidas tipicas]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[195.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17663" started-at="2018-11-19T15:05:12Z" data-provider="datosEntrada" finished-at="2018-11-19T15:05:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[El mejor restaurante de comidas tipicas]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Av. Republica 102]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[200.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17507" started-at="2018-11-19T15:05:30Z" data-provider="datosEntrada" finished-at="2018-11-19T15:05:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Resturante Solsticio]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Av. Republica 103]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[253.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17621" started-at="2018-11-19T15:05:47Z" data-provider="datosEntrada" finished-at="2018-11-19T15:06:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Resturante Solsticio]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[255.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17740" started-at="2018-11-19T15:06:05Z" data-provider="datosEntrada" finished-at="2018-11-19T15:06:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[El mejor restaurante de comidas tipicas]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[257.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[51]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17515" started-at="2018-11-19T15:06:23Z" data-provider="datosEntrada" finished-at="2018-11-19T15:06:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Av. Republica 106]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[259.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[52]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17526" started-at="2018-11-19T15:06:40Z" data-provider="datosEntrada" finished-at="2018-11-19T15:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Resturante Solsticio]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[261.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[53]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17475" started-at="2018-11-19T15:06:58Z" data-provider="datosEntrada" finished-at="2018-11-19T15:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[263.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17631" started-at="2018-11-19T15:07:15Z" data-provider="datosEntrada" finished-at="2018-11-19T15:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[El mejor restaurante de comidas tipicas]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[265.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="registrarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="registrarRestaurante" duration-ms="17465" started-at="2018-11-19T15:07:33Z" data-provider="datosEntrada" finished-at="2018-11-19T15:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrar Restaurante (administrador) FA13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/loginadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1@upc.edu.pe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[267.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarRestaurante -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.emotel.test.system.testCase.MantenimientoRestaurante@10bdf5e5]" name="tearDown" is-config="true" duration-ms="732" started-at="2018-11-19T15:07:50Z" finished-at="2018-11-19T15:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.emotel.test.system.testCase.MantenimientoRestaurante -->
+    </test> <!-- RestauranteWebDriverTestChrome -->
+    <test name="ReservaHotelWebDriverTestChrome" duration-ms="249973" started-at="2018-11-19T15:07:51Z" finished-at="2018-11-19T15:12:01Z">
+      <class name="com.emotel.test.system.testCase.MantenimientoReservaHotel">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int, int, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="inicioClase" is-config="true" duration-ms="2407" started-at="2018-11-19T15:07:51Z" finished-at="2018-11-19T15:07:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="19354" started-at="2018-11-19T15:07:54Z" data-provider="datosEntrada" finished-at="2018-11-19T15:08:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24112018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Reserva guardada]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[38.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17662" started-at="2018-11-19T15:08:13Z" data-provider="datosEntrada" finished-at="2018-11-19T15:08:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24112018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[225.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17525" started-at="2018-11-19T15:08:31Z" data-provider="datosEntrada" finished-at="2018-11-19T15:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24112018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[229.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[43]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17566" started-at="2018-11-19T15:08:48Z" data-provider="datosEntrada" finished-at="2018-11-19T15:09:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24112018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[233.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[44]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17490" started-at="2018-11-19T15:09:06Z" data-provider="datosEntrada" finished-at="2018-11-19T15:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[237.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17604" started-at="2018-11-19T15:09:23Z" data-provider="datosEntrada" finished-at="2018-11-19T15:09:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24112018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[277.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[61]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17579" started-at="2018-11-19T15:09:41Z" data-provider="datosEntrada" finished-at="2018-11-19T15:09:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24112018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[279.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[62]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17517" started-at="2018-11-19T15:09:58Z" data-provider="datosEntrada" finished-at="2018-11-19T15:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[281.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[63]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17513" started-at="2018-11-19T15:10:16Z" data-provider="datosEntrada" finished-at="2018-11-19T15:10:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[283.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[64]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17600" started-at="2018-11-19T15:10:33Z" data-provider="datosEntrada" finished-at="2018-11-19T15:10:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24112018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[285.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17553" started-at="2018-11-19T15:10:51Z" data-provider="datosEntrada" finished-at="2018-11-19T15:11:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[287.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17318" started-at="2018-11-19T15:11:09Z" data-provider="datosEntrada" finished-at="2018-11-19T15:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[289.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[67]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17313" started-at="2018-11-19T15:11:26Z" data-provider="datosEntrada" finished-at="2018-11-19T15:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[291.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[68]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="reservarHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="reservarHotel" duration-ms="17171" started-at="2018-11-19T15:11:43Z" data-provider="datosEntrada" finished-at="2018-11-19T15:12:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva de hotel FA13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[293.0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[69]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarHotel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaHotel@31dc339b]" name="tearDown" is-config="true" duration-ms="740" started-at="2018-11-19T15:12:00Z" finished-at="2018-11-19T15:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.emotel.test.system.testCase.MantenimientoReservaHotel -->
+    </test> <!-- ReservaHotelWebDriverTestChrome -->
+    <test name="ReservaRestauranteWebDriverTestChrome" duration-ms="195423" started-at="2018-11-19T15:12:01Z" finished-at="2018-11-19T15:15:17Z">
+      <class name="com.emotel.test.system.testCase.MantenimientoReservaRestaurante">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int, int, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaRestaurante@66480dd7]" name="inicioClase" is-config="true" duration-ms="2306" started-at="2018-11-19T15:12:01Z" finished-at="2018-11-19T15:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="reservarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaRestaurante@66480dd7]" name="reservarRestaurante" duration-ms="21834" started-at="2018-11-19T15:12:03Z" data-provider="datosEntrada" finished-at="2018-11-19T15:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva restaurante FB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24112018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Reserva guardada]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[43.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarRestaurante -->
+        <test-method status="PASS" signature="reservarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaRestaurante@66480dd7]" name="reservarRestaurante" duration-ms="30260" started-at="2018-11-19T15:12:25Z" data-provider="datosEntrada" finished-at="2018-11-19T15:12:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva restaurante FA01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24112018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[241.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[46]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarRestaurante -->
+        <test-method status="PASS" signature="reservarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaRestaurante@66480dd7]" name="reservarRestaurante" duration-ms="30412" started-at="2018-11-19T15:12:56Z" data-provider="datosEntrada" finished-at="2018-11-19T15:13:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva restaurante FA02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24112018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[245.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarRestaurante -->
+        <test-method status="PASS" signature="reservarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaRestaurante@66480dd7]" name="reservarRestaurante" duration-ms="30464" started-at="2018-11-19T15:13:26Z" data-provider="datosEntrada" finished-at="2018-11-19T15:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva restaurante FA03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[249.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[48]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarRestaurante -->
+        <test-method status="PASS" signature="reservarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaRestaurante@66480dd7]" name="reservarRestaurante" duration-ms="30405" started-at="2018-11-19T15:13:56Z" data-provider="datosEntrada" finished-at="2018-11-19T15:14:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva restaurante FA04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24112018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[297.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[71]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarRestaurante -->
+        <test-method status="PASS" signature="reservarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaRestaurante@66480dd7]" name="reservarRestaurante" duration-ms="18338" started-at="2018-11-19T15:14:27Z" data-provider="datosEntrada" finished-at="2018-11-19T15:14:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva restaurante FA05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[299.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[72]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarRestaurante -->
+        <test-method status="PASS" signature="reservarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaRestaurante@66480dd7]" name="reservarRestaurante" duration-ms="15109" started-at="2018-11-19T15:14:45Z" data-provider="datosEntrada" finished-at="2018-11-19T15:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva restaurante FA06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[301.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[73]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarRestaurante -->
+        <test-method status="PASS" signature="reservarRestaurante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaRestaurante@66480dd7]" name="reservarRestaurante" duration-ms="15436" started-at="2018-11-19T15:15:00Z" data-provider="datosEntrada" finished-at="2018-11-19T15:15:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reserva restaurante FA07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:9090/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usuario@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ocurrió un error]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://localhost/testlink/lib/api/xmlrpc/v1/xmlrpc.php]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1e2d93fbcb24715b9e5789bf80f37e43]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[303.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[74]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[EMotel - Primer Build]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservarRestaurante -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.emotel.test.system.testCase.MantenimientoReservaRestaurante@66480dd7]" name="tearDown" is-config="true" duration-ms="816" started-at="2018-11-19T15:15:16Z" finished-at="2018-11-19T15:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.emotel.test.system.testCase.MantenimientoReservaRestaurante -->
+    </test> <!-- ReservaRestauranteWebDriverTestChrome -->
+  </suite> <!-- EMotelSystemSuiteChrome -->
+</testng-results>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registrar Restaurante</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/dashboard.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div th:replace="fragments/admin/menu_superior :: menu_superior"></div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div th:replace="fragments/admin/menu_lateral :: menu_lateral"></div>
+        
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Registrar Restaurante</h1>
+			<div th:if="${mensaje != null}" class="alert alert-success">
+          		<p id="msgMensaje" th:text="${mensaje}"></p>
+          	</div>
+          	<div th:if="${error != null}" class="alert alert-danger">
+          		<p th:text="${error}"></p>
+          	</div> 
+          <form method="post" th:object="${restaurante}" action="/admin/restaurante/guardar">
+          	<div class="form-group">
+              <label for="txtNombre">Nombre</label>
+              <input th:field="*{nombre}" id="txtNombre" type="text" class="form-control" placeholder="Texto" />
+            </div>
+            <div class="form-group">
+              <label for="txtPrecio">Precio</label>
+              <input th:field="*{precio}" id="txtPrecio" type="text" class="form-control" placeholder="Texto" />
+            </div>
+            <div class="form-group">
+              <label for="txtDescripcion">Descripcion</label>
+              <input th:field="*{descripcion}" id="txtDescripcion" type="text" class="form-control" placeholder="Texto" />
+            </div>
+            <div class="form-group">
+              <label for="txtUbicacion">Ubicacion</label>
+              <input th:field="*{ubicacion}" id="txtUbicacion" type="text" class="form-control" placeholder="Texto" />
+            </div>
+            <div class="form-group">
+              <label for="selProvincia">Provincia</label>
+              <select th:field="*{provincia}" id="selProvincia" class="form-control" >
+              	<option th:each="d : ${listado}" th:value="${d.id}" th:text="${d.nombre}" ></option>
+              </select>
+            </div>
+            <button type="submit" id="btnRegistrar" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src=js/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

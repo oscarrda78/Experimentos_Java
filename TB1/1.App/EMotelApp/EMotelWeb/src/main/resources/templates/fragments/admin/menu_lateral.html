@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+  </head>
+  <body>
+    <div class="container-fluid" th:fragment="menu_lateral">
+    	<div class="col-sm-3 col-md-2 sidebar">
+	    	<ul class="nav nav-list">
+	            <li class="nav-header">Tipo de hotel</li>
+	            <li><a href="/admin/tipohotel/registrar">Registrar tipo hotel</a></li>
+	            <li><a href="/admin/tipohotel/listar">Listar</a></li>
+	         </ul>
+         	 <ul class="nav nav-list">
+            	<li class="nav-header">Hotel</li>
+            	<li><a href="/admin/hotel/registrar">Registrar hotel</a></li>
+            	<li><a href="/admin/hotel/listar">Listar</a></li>
+          	</ul>
+          	<ul class="nav nav-list">
+            	<li class="nav-header">Restaurante</li>
+            	<li><a href="/admin/restaurante/registrar">Registrar restaurante</a></li>
+            	<li><a href="/admin/restaurante/listar">Listar</a></li>
+          	</ul>
+          	<ul class="nav nav-list">
+            	<li class="nav-header">Reservas de hoteles</li>
+            	<li><a href="/admin/reservahotel/listar">Listar</a></li>
+          	</ul>
+          	<ul class="nav nav-list">
+            	<li class="nav-header">Reservas de restaurantes</li>
+            	<li><a href="/admin/reservarest/listar">Listar</a></li>
+          	</ul>
+        </div>    
+    </div>
+  </body>
+</html>

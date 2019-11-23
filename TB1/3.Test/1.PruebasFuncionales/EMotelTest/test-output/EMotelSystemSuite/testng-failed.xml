@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EMotelSystemSuite]" parallel="tests">
+  <test thread-count="5" name="TipoHotelWebDriverTestChrome(failed)" parallel="tests">
+    <parameter name="navegador" value="chrome"/>
+    <parameter name="rutaArchivo" value="C:\\Users\\Jorge\\Documents\\ISW\\20182\\Experimentos\\ProyectoEMotel\\3.Test\\1.PruebasFuncionales\\EMotelTest\\src\\test\\resources\\RegistrarTipoHotel.xlsx"/>
+    <parameter name="testlinkNavegadorId" value="1"/>
+    <parameter name="remoto" value="0"/>
+    <parameter name="fuenteDatos" value="Excel"/>
+    <parameter name="testlinkNavegadorNombre" value="Chrome"/>
+    <classes>
+      <class name="com.emotel.test.system.testCase.MantenimientoTipoHotel">
+        <methods>
+          <include name="inicioClase"/>
+          <include name="tearDown"/>
+          <include name="registrarTipoHotel" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.emotel.test.system.testCase.MantenimientoTipoHotel -->
+    </classes>
+  </test> <!-- TipoHotelWebDriverTestChrome(failed) -->
+</suite> <!-- Failed suite [EMotelSystemSuite] -->

@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="EMotelSystemSuiteChrome" parallel="none">
+	
+	<test name="TipoHotelWebDriverTestChrome" enabled="true" >
+		<parameter name="testlinkNavegadorId" value="1"/>
+		<parameter name="testlinkNavegadorNombre" value="Chrome"/>
+		<parameter name="navegador" value="chrome"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" 
+		value="src\\test\\resources\\RegistrarTipoHotel.xlsx"/>
+		<classes>
+			<class name="com.emotel.test.system.testCase.MantenimientoTipoHotel" />
+		</classes>
+	</test>
+	
+	<test name="HotelWebDriverTestChrome" enabled="true" >
+		<parameter name="testlinkNavegadorId" value="1"/>
+		<parameter name="testlinkNavegadorNombre" value="Chrome"/>
+		<parameter name="navegador" value="chrome"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" 
+		value="src\\test\\resources\\RegistrarHotel.xlsx"/>
+		<classes>
+			<class name="com.emotel.test.system.testCase.MantenimientoHotel" />
+		</classes>
+	</test>
+	
+	<test name="RestauranteWebDriverTestChrome" enabled="true" >
+		<parameter name="testlinkNavegadorId" value="1"/>
+		<parameter name="testlinkNavegadorNombre" value="Chrome"/>
+		<parameter name="navegador" value="chrome"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" 
+		value="src\\test\\resources\\RegistrarRestaurante.xlsx"/>
+		<classes>
+			<class name="com.emotel.test.system.testCase.MantenimientoRestaurante" />
+		</classes>
+	</test>
+
+	<test name="ReservaHotelWebDriverTestChrome" enabled="true" >
+		<parameter name="testlinkNavegadorId" value="1"/>
+		<parameter name="testlinkNavegadorNombre" value="Chrome"/>
+		<parameter name="navegador" value="chrome"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" 
+		value="src\\test\\resources\\ReservaHotel.xlsx"/>
+		<classes>
+			<class name="com.emotel.test.system.testCase.MantenimientoReservaHotel" />
+		</classes>
+	</test>
+	
+	<test name="ReservaRestauranteWebDriverTestChrome" enabled="true" >
+		<parameter name="testlinkNavegadorId" value="1"/>
+		<parameter name="testlinkNavegadorNombre" value="Chrome"/>
+		<parameter name="navegador" value="chrome"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" 
+		value="src\\test\\resources\\ReservaRestaurante.xlsx"/>
+		<classes>
+			<class name="com.emotel.test.system.testCase.MantenimientoReservaRestaurante" />
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.emotel.db</groupId>
+  <artifactId>EMotelDb</artifactId>
+  <version>1.0</version>
+  
+  
+  	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<flyway.version>5.1.4</flyway.version>
+		<postgresql.driver.version>42.2.5</postgresql.driver.version>
+		<database.driver>org.postgresql.Driver</database.driver>
+		<database.url>jdbc:postgresql://127.0.0.1:7890/trabajofinal</database.url>
+		<database.username>postgres</database.username>
+		<database.password>admin</database.password>
+	</properties>
+  
+  <dependencies>
+  		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+			<version>${flyway.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>${postgresql.driver.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+  </dependencies>
+  <build>
+  	<plugins>
+  			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+  			<plugin>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-maven-plugin</artifactId>
+				
+				<configuration>
+					<driver>${database.driver}</driver>
+					<url>${database.url}</url>
+					<user>${database.username}</user>
+					<password>${database.password}</password>
+					<locations>
+						<location>filesystem:src/main/resources/sql/migrations</location>
+					</locations>
+					<encoding>ISO-8859-1</encoding>
+					<cleanOnValidationError>true</cleanOnValidationError>
+					<placeholders>
+						<email_type.primary>jorgxjr@gmail.com</email_type.primary>
+						<email_type.work>u201514179@upc.edu.pe</email_type.work>
+					</placeholders>
+				</configuration>
+				<executions>
+					<execution>
+						<id>flyway database migration</id>
+						<phase>pre-integration-test</phase>
+						<goals>
+							<goal>clean</goal>
+							<goal>baseline</goal>
+							<goal>migrate</goal>
+							<goal>info</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+  	</plugins>
+  </build>
+  
+</project>
